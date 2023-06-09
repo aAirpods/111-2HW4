@@ -1,0 +1,118 @@
+<mxfile host="65bd71144e">
+    <diagram id="Qh8QLFH9MDEc3peksb-X" name="第1頁">
+        <mxGraphModel dx="670" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="12" value="Add" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="150" width="390" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Commitee" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="70" width="20" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Client" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="70" width="20" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=classicThin;endFill=1;html=1;" edge="1" parent="1" target="15">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="250" y="180" as="sourcePoint"/>
+                        <mxPoint x="510" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Announce" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22">
+                    <mxGeometry x="0.3485" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Publish success failure notification" style="endArrow=block;endSize=6;dashed=1;html=1;exitX=0.102;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" edge="1" parent="1" source="15" target="20">
+                    <mxGeometry x="-0.0525" width="160" relative="1" as="geometry">
+                        <mxPoint x="470" y="245" as="sourcePoint"/>
+                        <mxPoint x="630" y="245" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=none;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="21" target="28">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="370" y="260" as="sourcePoint"/>
+                        <mxPoint x="510" y="260" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="390" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="80" width="100" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="28">
+                    <mxGeometry x="45" y="170" width="10" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="515" y="165" width="10" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=classicThin;endFill=1;html=1;" edge="1" parent="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="250" y="260" as="sourcePoint"/>
+                        <mxPoint x="515" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="29">
+                    <mxGeometry x="0.3485" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="response success&lt;br&gt;&amp;nbsp;or failure" style="endArrow=block;endSize=6;dashed=1;html=1;exitX=-0.06;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" edge="1" parent="1" source="16" target="21">
+                    <mxGeometry x="-0.1024" width="160" relative="1" as="geometry">
+                        <mxPoint x="515" y="334.31" as="sourcePoint"/>
+                        <mxPoint x="370" y="310" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="Revise" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="350" width="390" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=classicThin;endFill=1;html=1;" edge="1" parent="1" target="37">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="250" y="395" as="sourcePoint"/>
+                        <mxPoint x="510" y="395" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="Revise announcement" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="34">
+                    <mxGeometry x="0.3485" y="-1" relative="1" as="geometry">
+                        <mxPoint x="11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="Revise success/Failure notification" style="endArrow=block;endSize=6;dashed=1;html=1;exitX=0.102;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" edge="1" parent="1" source="37">
+                    <mxGeometry x="-0.0525" width="160" relative="1" as="geometry">
+                        <mxPoint x="470" y="460" as="sourcePoint"/>
+                        <mxPoint x="249.81034482758616" y="435.16499999999996" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="515" y="380" width="10" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="endArrow=classicThin;endFill=1;html=1;" edge="1" parent="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="250" y="475" as="sourcePoint"/>
+                        <mxPoint x="515" y="475" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="Delete notice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="38">
+                    <mxGeometry x="0.3485" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="Successfully deleted/failure notification" style="endArrow=block;endSize=6;dashed=1;html=1;exitX=-0.06;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;entryX=0.238;entryY=0.823;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="33">
+                    <mxGeometry x="-0.1024" width="160" relative="1" as="geometry">
+                        <mxPoint x="514.4000000000001" y="514.6" as="sourcePoint"/>
+                        <mxPoint x="369.81034482758616" y="514.6" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="514" y="465" width="10" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
